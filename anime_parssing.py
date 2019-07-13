@@ -15,8 +15,7 @@ for link in url:
     tip=(find_tip.find_next_sibling().find_next_sibling()).text
     rating=(f.find_next_sibling().find_next_sibling()).text
 
-    anime = Animation()
-    anime.name =name
+
     anime.tip=tip
     anime.rating=rating
     anime.ann=find_ann.text
